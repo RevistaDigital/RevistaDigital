@@ -4,6 +4,7 @@ html {
 }
 
 body {
+    scroll-behavior: smooth;
     margin: 0;
     padding: 0;
     font-family: 'Source Sans Pro', sans-serif;
@@ -23,6 +24,12 @@ body {
 .imgd {
     width: 5%;
     height: 5%;
+}
+.contorno{
+    border:4px outset #0CC;
+    width: 70% ;
+    height: 70%;
+    margin: 0 0 0 18%;
 }
 p,
 span {
@@ -61,6 +68,10 @@ hr {
     overflow-y: visible;
 }
 
+.trabajando {
+margin: 0 15%;
+}
+
 a {
     text-decoration: none;
 }
@@ -75,7 +86,7 @@ a {
 }
 
 .tm-nav-ite.active .submenu {
-    max-height: 200px;
+    max-height: 400px;
     /* Ajusta esta altura según tus necesidades */
 }
 
@@ -171,6 +182,11 @@ a {
     height: 50px;
     border-radius: 2px;
     color: white;
+}
+
+.desordenado {
+    font-size: 1.2rem;
+    margin: 0 0 0 58px;
 }
 
 .parrafo {
@@ -375,6 +391,13 @@ ul {
     font-family: "PotreroDigital";
     font-size: 2.5rem;
 }
+
+.potrero3 {
+    color: #d3d93b;
+    font-family: "PotreroDigital";
+    font-size: 1.5rem;
+}
+
 
 .potre {
     width: 100%;
